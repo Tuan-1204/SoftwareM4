@@ -1,0 +1,76 @@
+/* ===============================
+   Import Google Font
+================================= */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* ===============================
+   Biến toàn cục
+================================= */
+:root {
+  --font-base: 'DM Sans', sans-serif;
+
+  /* Màu sắc */
+--color-text: #232323;
+--color-bg : #DCE8EB;
+--color-one : #FF8484;
+--color-two :#F7D9C4;
+
+  /* Font size */
+  --fs-base: 16px;
+  --fs-small: 14px;
+  --fs-large: 20px;
+
+  /* Khoảng cách */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+}
+
+/* ===============================
+   Body & Layout
+================================= */
+body {
+  font-family: var(--font-base);
+  font-size: var(--fs-base);
+  line-height: 1.5;
+
+  color: var(--color-text);
+}
+
+/* ===============================
+   Typography
+================================= */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+/* ===============================
+   Link
+================================= */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-text);
+}
+
+/* ===============================
+   Helper Container
+================================= */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+
