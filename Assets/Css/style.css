@@ -72,10 +72,93 @@
     height: 40px;
     border-radius: 5px;
     font-size: 20px;
-    color: var(--color-text);
+    color: #000000;
      background-color: #ffff; 
+}
+/* endheader */
+
+/* section main */
+.section-one{
+    background-image: url('../Images/background1.jpg');
+    padding: 150px 0;
+    position: relative;
+}
+
+.section-one::before{
+    /* tạo element giả - lớp giả  */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    
+}
+
+.section-one .inner-wrap{
+    position: relative;
+    color: #fff;
+
+}
+
+.section-one .inner-wrap .inner-sub-title{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-one .inner-wrap .inner-title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.section-one .inner-wrap .inner-desc{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.section-one .button {
+    margin-right: 10px;
+}
+
+/* endsectionmain */
+
+/* button */
+.button{
+    color: var(--color-text);
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
 }
 
 
+ .button-two{
+    background: var(--color-two);
+    color: var(--color-text);
+    border-color: var(--color-two);
+}
 
-/* endheader */
+.button-two:hover{
+    background: #fff;
+    border-color: #fff;
+}
+
+.button-two-outline{
+    background: transparent;
+    color: #fff;
+}
+
+.button-two-outline:hover{
+    
+   background: #fff;
+    border-color: #fff;
+}
+/* endbutton */
