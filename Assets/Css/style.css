@@ -162,3 +162,33 @@
     border-color: #fff;
 }
 /* endbutton */
+
+
+/* section-two */
+.section-two{
+    padding: 80px 0 50px ;
+    background-color: #EFEFEF;
+}
+
+
+.section-two .inner-wrap{
+    display: flex;
+    align-items: center;
+}
+
+.section-two .inner-wrap .inner-image{
+    width: 40%;
+     margin-right: 5%;
+}
+
+.section-two .inner-wrap  .inner-content{
+    flex:1;
+}
+
+.section-two .inner-wrap .inner-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+   
+}
+/* end section-two */
